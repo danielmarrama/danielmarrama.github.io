@@ -1,1 +1,3 @@
-# danielmarrama.github.io
+# Daniel Marrama
+
+### Bioinformatician
