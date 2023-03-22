@@ -73,8 +73,8 @@ h2 {
   margin-bottom: 15px;
 }
 
-section {
-  margin-bottom: 30px;
+a {
+  color: #333;
 }
 
 .project {
@@ -85,9 +85,8 @@ section {
   margin-bottom: 5px;
 }
 
-.project a {
-  text-decoration: none;
-  color: #333;
+.project p {
+  margin-left:2em
 }
 
 .project a:hover {
@@ -95,6 +94,11 @@ section {
 }
 
 .projects-content {
+  width: 100%;
+  text-align: left;
+}
+
+.publications-content {
   width: 100%;
   text-align: left;
 }
