@@ -59,7 +59,7 @@ body {
 
 .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 15px;
 }
 
@@ -77,26 +77,26 @@ section {
   margin-bottom: 30px;
 }
 
-/* Resume, Projects, and Publications sections */
-
-.resume, .projects, .publications {
-  padding: 15px;
-  background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+.project {
+  margin-bottom: 20px;
 }
 
-.resume h3, .projects h3, .publications h3 {
-  margin-bottom: 10px;
+.project h3 {
+  margin-bottom: 5px;
 }
 
-.resume ul, .projects ul, .publications ul {
-  list-style-type: none;
-  padding: 0;
+.project a {
+  text-decoration: none;
+  color: #333;
 }
 
-.resume li, .projects li, .publications li {
-  margin-bottom: 10px;
+.project a:hover {
+  color: #007bff;
+}
+
+.projects-content {
+  width: 100%;
+  text-align: left;
 }
 
 @media (max-width: 768px) {
