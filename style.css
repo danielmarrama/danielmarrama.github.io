@@ -50,6 +50,10 @@ body {
   text-align: left;
 }
 
+.description p {
+  padding-right: 350px;
+}
+
 .ppic {
   border-radius: 50%;
   width: 300px;
