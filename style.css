@@ -85,12 +85,23 @@ a {
   margin-bottom: 5px;
 }
 
+.project h5 {
+  margin-left: 30px;
+  text-decoration: none;
+}
+
 .project p {
   margin-left:2em
 }
 
 .project a:hover {
   color: #007bff;
+}
+
+.publication p {
+  margin-left: 15px;
+  padding-right: 300px;
+  text-decoration: none;
 }
 
 .projects-content {
